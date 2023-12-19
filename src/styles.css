@@ -20,12 +20,33 @@ font-weight: 400;
 
 .header{
     grid-area: header;
+    background-color: #fff;
+}
+
+.header .header-container{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.header h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.header a:hover h1{
+    color: aquamarine;
+    transition: 0.3s;
 }
 
 /* HERO */
 
 .hero{
     grid-area: hero;
+    height: 89vh;
+    background: url('../'); 
 }
 
 /* ABOUT */
