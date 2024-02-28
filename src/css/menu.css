@@ -68,13 +68,13 @@
 }
 
 .header input:checked ~ label .hamburguer:before{
-    transform:rotate(50deg);
+    transform:rotate(90deg);
     top: 0;
 }
 
-.header input:checked ~ label .hamburguer{
+.header input:checked ~ label .hamburguer:after{
     transform:rotate(90deg);
-    top: 0;
+    bottom: 0;
 }
 
 @media (max-width: 900px){
